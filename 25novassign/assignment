@@ -1,0 +1,17 @@
+1. Write a program in C to check whether a number is Perfect or not.
+2. Write a program in C to check whether a number is Prime or not.
+3. Write a program in C to print all prime numbers from 1 to n, n will be taken as user input.
+4. Write a program to print all even and odd numbers separately from 1 to n, 
+
+n will be taken as user input.
+
+5. Write a program in C to check whether a number is Palindrome or not.
+6. Write a program to check whether a number is Armstrong or not.
+7. Write a program to find the sum of even and odd digits of a number separately.
+8. Write a program to find the sum of even and odd place digit of a number separately.
+9. Write a program to print Fibonacci series upto nth Term.
+10. Write a program to print the following pattern:
+                           1
+                           2      3
+                           4      5      6
+                           7      8      9       10
