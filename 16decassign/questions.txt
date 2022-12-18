@@ -1,0 +1,21 @@
+1. Write program in C to implement an array to display elements from 1 to 20.
+
+2. Write a program in C to implement an array to find the sum of elements from 1 to n.
+
+3. Write a program in C to implement an array to find the maximum and minimum element for n number of elements.
+
+4. Write a program in C to implement an one dimensional array to implement linear search.
+
+5. Write a program in C to implement binary search in an one dimensional array.
+
+6. Write a program to implement bubble sort in C.
+
+7. Write a program to implement selection sort in C.
+
+8. Write a program to print the following pattern:
+
+A
+A B
+A B C
+A B C D
+A B C D E
