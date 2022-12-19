@@ -17,6 +17,7 @@ int main(void)
     _array(n,input_array);
 
     //printing array elements
+    printf("array elements are : \n");
     for(i=0; i<n; i++)
     {
         printf("%d  ",*(input_array+i));

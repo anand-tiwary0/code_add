@@ -25,14 +25,14 @@ int main(void)
     {
         if(num == *(input_array+i))
         {
-            printf("%d is found at %d location",);
+            printf("%d is found at %d location",num,(i+1));
             break;
         }
     }
-        
-
-
-
+    if(i>=n)
+    {
+        printf("%d is not found in given array ",num);
+    }
 
     free(input_array);
     printf("\n");
