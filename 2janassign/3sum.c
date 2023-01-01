@@ -2,10 +2,16 @@
 
 #include <stdio.h>
 
-float sum(int , int ,...);
+int sum(int,int);
 
 int main(void){
-    float a,b,sum;
+    int a,b,total;
     printf("enter numbers to sum :: ");
-    
+    scanf("%d %d",&a,&b);
+    printf("%d + %d = %d \n",a,b,sum(a,b));
+    return 0;  
+}
+
+int sum(int a,int b){
+    return a+b;
 }
