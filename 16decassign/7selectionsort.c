@@ -73,7 +73,6 @@ void selection_sort(int n,int *p)
     for (int i=0;i<n;i++)
     {
         min=i;
-
         for (int j=i+1;j<n;j++)
         {
             if(*(p+min)>*(p+j))

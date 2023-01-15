@@ -9,7 +9,7 @@ int main(void){
     int a,b;
     printf("enter numbers to find gcd \n");
     scanf("%d %d",&a,&b);
-    printf("gcd of %d and %d ",a,b);
+    printf("gcd of %d and %d is -> ",a,b);
     //as gcd(a,b)=gcd(-a,b)=gcd(a,-b),gcd(-a,-b);
     //using user defined mod() to handle negative numbers
     _gcd(mod(a),mod(b));
@@ -25,7 +25,7 @@ int mod(int n){
 
 void _gcd(int a, int b){
     if(a==0 || b==0){
-        printf("invalid input either a=0 or b=0 \n");
+        printf("invalid (input either a=0 or b=0 or both 0) \n");
     }
     else{
         while(a != b){
@@ -34,6 +34,6 @@ void _gcd(int a, int b){
             else
                 b -= a;
         }
-        printf("= %d \n",a);
+        printf(" %d \n",a);
     }
 }
