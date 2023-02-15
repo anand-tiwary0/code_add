@@ -14,4 +14,5 @@ void natural(int i){
     for(n=1; n<=i; n++ ){
         printf("%d  ",n);
     }
+    
 }

@@ -30,13 +30,20 @@ void _sin();
 void _cos();
 void _tan();
 
+//ascii code for colours
+#define GREEN   "\e[38;2;255;255;255;1m\e[48;2;106;170;100;1m"
+#define YELLOW  "\e[38;2;255;255;255;1m\e[48;2;201;180;88;1m"
+#define RED     "\e[38;2;255;255;255;1m\e[48;2;220;20;60;1m"
+#define RESET   "\e[0;39m"
+
+
 
 int main(void)
 {
     int choice;
     double radian,theta;
     //presenting all options to user
-    printf("choose the operation you want to perform from below list -- \n");
+    printf(GREEN"choose the operation you want to perform from below list -- \n"RESET);
     printf(" 1\t summation \t\t 8\t cos(theta) \n 2\t subtraction \t\t 9\t tan(theta)\n");
     printf(" 3\t multiplication \t 10\t pow \n");
     printf(" 4\t division \t\t 11\t sqrt \n 5\t remainder \t\t 12\t degree to radian \n");
